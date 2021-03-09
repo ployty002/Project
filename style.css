@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 900px;
+}
+/*------------------------------------------------header------------------------------------------------------------------ */
+header{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: relative;
+    overflow: hidden;
+    border-radius: 0 0 100%  100% / 40% ;
+}
+header .header_area{
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background: linear-gradient(180deg, #ED7E51 , #9E3F3B);
+
+}
+.header_area h3{
+    font-size: 30px;
+    margin-top: 0%;
+}
+.menubar ul.menu button{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    border-radius:50px ;
+    color: white;
+    background: linear-gradient(90deg, #ED7E51 , #9E3F3B);
+    box-shadow: 0 3px 20px black;
+    transition: all 0.3s ease;
+
+}
+
+.menubar{
+    width: 100%;
+    height: 80px;
+    background: white;
+    box-shadow: 0 0 10px rgb(194, 194, 194); 
+
+}
+.menubar .logo{
+    float: left;
+}
+
+.menubar ul.menu{
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li{
+    float: left;
+    margin-right: 60px;
+}
+.menubar ul.menu li a{
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover{
+    border-bottom: 2px solid #FF0000;
+    padding-bottom: 0px;
+}
+/*------------------------------------------------header------------------------------------------------------------------ */
+/*------------------------------------------------info1------------------------------------------------------------------ */
+.info1{
+    width: 100%;
+    height: 600px;
+    
+}
+.info_text1 h1{
+    font-size: 50px;
+    background:-webkit-linear-gradient(180deg, #ED7E51 , #9E3F3B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info_text1 p{
+    font-size: 20px;
+}
+.info_text1{
+
+    text-align: left;
+    width: 460px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 140px;
+}
+.info1_area img{
+    width: 350px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 80px;
+    float: left;
+}
+/*------------------------------------------------info1------------------------------------------------------------------ */
+/*------------------------------------------------info2------------------------------------------------------------------ */
